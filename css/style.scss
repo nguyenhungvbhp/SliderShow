@@ -1,0 +1,99 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.clr {
+  clear: both;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+#imageSlider {
+  width: 980px;
+  margin: 0px auto;
+  padding-top: 10px;
+  background-color: #e3e5e6;
+}
+
+#imageSlider .bigImgWrapper {
+  width: 920px;
+  margin: 5px auto;
+  padding-top: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 360px
+}
+
+#imageSlider .bigImgWrapper .bigImgContent {
+  width: 1844px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 360px
+}
+
+#imageSlider .SliderBarWrapper {
+  width: 920px;
+  margin: 5px auto;
+}
+
+#imageSlider .SliderBarWrapper .leftArr {
+  float: left;
+  cursor: pointer;
+}
+
+#imageSlider .SliderBarWrapper .SliderBarContent {
+  float: left;
+  width: 810px;
+  min-height: 50px;
+}
+
+#imageSlider .SliderBarWrapper .rightArr {
+  float: left;
+  cursor: pointer;
+}
+
+#imageSlider .smallImgWrapper {
+  width: 920px;
+  margin: 5px auto;
+  padding-top: 5px;
+  min-height: 100px;
+  overflow: hidden;
+  position: relative
+}
+
+#imageSlider .smallImgWrapper ul {
+  width: 4000px;
+  list-style-type: none;
+  position: absolute;
+  top: 0px;
+  left: 0px
+}
+
+#imageSlider .smallImgWrapper ul li {
+  width: 114px;
+  border-top: 1px solid #fff;
+  background-color: #e3e5e6;
+  padding: 2px;
+  float: left;
+  position: relative;
+}
+
+div.mask {
+  height: 72px;
+  width: 114px;
+  background-color: black;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+div.maskHover {
+  opacity: 0;
+}
